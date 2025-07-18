@@ -106,25 +106,29 @@ public class function {
 
 
 //Fibonacci series
-public class function {
+/*public class function {
 
     public static int fib(int a) {
-        if(a==0){
+        if(a == 0){
             return 0;
         }
-        else if (a==1){
+        else if(a == 1){
             return 1;
         }
         else{
-            return fib(a-1)+fib(a-2);
-    }
+            return fib(a-1) + fib(a-2);
+        }
     }
 
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int a=sc.nextInt();
+        int i;
 
-        System.out.println("Fibonacci series till "+ a +" is "+fib(a));
+        System.out.println("Fibonacci series till "+ a +" is ");
+        for(i=0;i<=a;i++){
+            System.out.print(fib(i)+",");
+        }
         sc.close();
     }
-}
+}*/
