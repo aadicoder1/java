@@ -1,5 +1,5 @@
 package basic_java_programs;
-import java.util.*;
+//import java.util.*;
 
 
 
@@ -17,7 +17,7 @@ public class Strings {
 
 
 //String functions
-
+/*
 public class Strings {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
@@ -35,5 +35,44 @@ public class Strings {
 
         sc.close();
     }
-}
- 
+}*/ 
+
+/*public class Strings {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+
+        String name1= sc.nextLine();
+        String name2= sc.nextLine();
+        //compareTo
+        if(name1.compareTo(name2)==0){
+            System.out.println("Strings are equal ");}
+        else{
+            System.out.println("Strings are not equal ");
+        }
+
+        //substring
+        String name= "Aaditya";
+        System.out.println(name.substring(0, 4));
+
+
+        sc.close();
+    }
+}*/
+
+//ParseInt Method of Integer class
+/*public class Strings {
+   public static void main(String args[]) {
+       String str = "123";
+       int number = Integer.parseInt(str);
+       System.out.println(number);
+   }
+}*/
+
+//ToString Method of String class
+/*public class Strings {
+   public static void main(String args[]) {
+      int number = 123;
+      String str = Integer.toString(number);
+      System.out.println(str.length());      
+   }
+}*/
