@@ -48,7 +48,7 @@ import java.util.*;
 
 //Update Bit
 
-public class Bits {
+/*public class Bits {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int oper = sc.nextInt();
@@ -69,4 +69,4 @@ public class Bits {
         }
     sc.close();
     }
-}    
+}*/
