@@ -69,4 +69,4 @@ public class Bits {
         }
     sc.close();
     }
-}
+}    
