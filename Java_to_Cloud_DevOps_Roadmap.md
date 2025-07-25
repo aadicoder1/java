@@ -9,7 +9,7 @@
 🧱 *Goal: Build strong Java fundamentals.*
 
 ### Week 1: Java Basics  
-- ✅ Follow CodeWithHarry Playlist  
+- ✅ Follow ApnaCollege Playlist  
 - Topics: Variables, Data Types, Loops, Conditionals  
 - Practice: Write small programs (calculator, pattern printing)
 
