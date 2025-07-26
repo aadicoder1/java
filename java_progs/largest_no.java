@@ -9,7 +9,9 @@ public class largest_no {
         int b=sc.nextInt();
         int c=sc.nextInt();
 
-        if(a>b && a>c){
+
+        //approach1
+        /*if(a>b && a>c){
             System.out.println(a+" is largest");
         }
         else if(b>a && b>c){
@@ -17,7 +19,20 @@ public class largest_no {
         }
         else {
             System.out.println(c+" is largest");
+        }*/
+
+
+        //approach2
+        int max=0;
+        if(a>b){
+            max=a;
+        } else {
+            max=b;
         }
+        if(c>max){
+            max=c;
+        }
+        System.out.println(max+" is largest");
 
         sc.close();
     }
