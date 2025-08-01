@@ -1,4 +1,4 @@
-package java_progs;
+package java_progs.linear_searching;
 import java.util.*;
 
 
