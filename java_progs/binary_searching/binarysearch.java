@@ -23,23 +23,35 @@ public class binarysearch {
 
         System.out.print("Enter element to be found:");
         int item=sc.nextInt();
-        search(arr,item);
+        int result=search(arr,item);
 
+        if(result!= -1){
+            System.out.println(item+ " is found .");
+        }
+        else{
+            System.out.println(" Item not found.");
+        }
         sc.close();
     }
 
     static int search(int arr[],int item){
         int str=0;
         int end=arr.length;
-        int mid=(str+end)/2;
-
+        
        while(str<=end){
-            for(int i=0;i<arr.length;i++){
-                if(item==arr[mid]){
-                    return i;
-                }
+        int mid=str+(end-str)/2; //(str+end)/2  this exceed range of int in java
+
+        if(item<arr[mid]){
+            end=mid-1;
+        }
+        else if(item>arr[mid]){
+            str=mid+1;
+        }
+        else{
+                return mid;
             }
         }
-        return 1;
+
+        return -1;
     }
 }
