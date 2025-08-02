@@ -9,16 +9,24 @@ public class binarysearch {
         int[] arr= new int[n];
 
         for(int i=0;i<n;i++){
-            System.out.print("Enter arr["+ i +"]");
+            System.out.print("Enter arr["+ i +"]:");
             arr[i]=sc.nextInt();
         }
 
         for(int i=0;i<n-1;i++){
-            if(arr[i]>arr[i+1]){
-                int temp=arr[i];
-                arr[i]=arr[i+1];
-                arr[i+1]=temp;
+            for(int j=0;j<n-i-1;j++){
+                if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+              
             }
+        }
+    }
+
+        System.out.println("Sorted array:");
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i] + " ");
         }
 
         System.out.print("Enter element to be found:");
@@ -26,7 +34,7 @@ public class binarysearch {
         int result=search(arr,item);
 
         if(result!= -1){
-            System.out.println(item+ " is found .");
+            System.out.println(item+ " is found at index: "+ result);
         }
         else{
             System.out.println(" Item not found.");
