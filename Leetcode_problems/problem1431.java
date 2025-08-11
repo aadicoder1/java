@@ -17,7 +17,7 @@ public class problem1431 {
             }
         }
 
-        List<Boolean> bool_arr = new ArrayList();
+        List<Boolean> bool_arr = new ArrayList<>();
         for(int i=0;i<candies.length;i++){
             if(candies[i]+extraCandies>=max){
                 bool_arr.add(true);
