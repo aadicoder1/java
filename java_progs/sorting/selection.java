@@ -1,6 +1,6 @@
 package java_progs.sorting;
 
-import java.util.Arrays;
+import java.util.Arrays; 
 
 public class selection {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class selection {
     }
     public static void swap(int[] arr, int first , int last){
         int temp=arr[first];
-        arr[first]=arr[last];
+        arr[first]=arr[last];  
         arr[last]=temp;
     }
     public static int getmax(int[] arr,int start,int last){
