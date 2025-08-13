@@ -18,7 +18,6 @@ import java.util.*;
                     dups.add(nums[i]);}
                 } 
         }
-        Collections.sort(dups);
         return dups;
     }
     public static int[] cyclicsort(int[] nums) {
@@ -43,7 +42,7 @@ import java.util.*;
 
 public class problem442 {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 2, 2};
+        int[] nums = {4,3,2,7,8,2,3,1};
         System.out.println(findDuplicates(nums));
     }
 
