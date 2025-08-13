@@ -1,5 +1,5 @@
 //missing-number/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem268 {
     public static void main(String[] args) {

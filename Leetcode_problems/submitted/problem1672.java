@@ -1,5 +1,5 @@
 //richest-customer-wealth
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem1672 {
     public static int maximumWealth(int[][] accounts) {

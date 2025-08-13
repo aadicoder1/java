@@ -1,5 +1,5 @@
 //find-first-and-last-position-of-element-in-sorted-array/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem34 {
     public static int[] searchRange(int[] nums, int target) {

@@ -1,4 +1,4 @@
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem162 {
     public int findPeakElement(int[] arr) {

@@ -1,5 +1,5 @@
 //search-in-rotated-sorted-array/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem33 {
     public static int search(int[] nums, int target) {

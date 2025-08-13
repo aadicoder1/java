@@ -1,6 +1,6 @@
 //find-numbers-with-even-number-of-digits
 
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem1295 {
     public static int findNumbers(int[] nums) {

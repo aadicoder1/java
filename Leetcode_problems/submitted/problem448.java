@@ -1,5 +1,5 @@
 //find-all-numbers-disappeared-in-an-array/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 import java.util.*;
 

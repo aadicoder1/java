@@ -1,4 +1,4 @@
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 import java.util.Arrays;
 
 class problem2824 {

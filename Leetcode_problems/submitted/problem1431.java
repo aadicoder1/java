@@ -1,4 +1,4 @@
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 import java.util.ArrayList;
 import java.util.List;

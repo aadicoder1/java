@@ -1,5 +1,5 @@
 //sort-the-people/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 import java.util.*;
 
 

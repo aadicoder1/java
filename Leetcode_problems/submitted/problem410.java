@@ -31,7 +31,7 @@ Constraints:
 1 <= k <= min(50, nums.length)
  */
 
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem410 {
     public static int splitArray(int[] nums, int k) {

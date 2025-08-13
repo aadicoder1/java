@@ -1,5 +1,5 @@
 //find-smallest-letter-greater-than-target/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem744 {
     public static char nextGreatestLetter(char[] letters, char target) {

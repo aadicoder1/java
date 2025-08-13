@@ -1,6 +1,6 @@
 //search-a-2d-matrix/
 
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 import java.util.*;
 
 public class problem240{

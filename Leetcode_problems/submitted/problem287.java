@@ -1,5 +1,5 @@
 //find-the-duplicate-number/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 /*
 public class problem287 {
     public static void main(String[] args) {

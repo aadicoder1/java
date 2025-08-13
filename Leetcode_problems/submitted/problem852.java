@@ -1,5 +1,5 @@
 //peak-index-in-a-mountain-array
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 public class problem852 {
     public int peakIndexInMountainArray(int[] arr) {
