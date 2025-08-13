@@ -48,7 +48,7 @@ public static int findDuplicate(int[] arr) {
             }  else {
                 i++;
             }          
-        }
+        }      
         return -1;
     }
-}
+}     
