@@ -1,9 +1,9 @@
 //first-missing-positive/
-package Leetcode_problems.not_submitted;
+package Leetcode_problems.submitted;
 
 public class problem41 {
     public static void main(String[] args) {
-        int[] nums={7,8,9,11,12};
+        int[] nums={1};
         System.out.println(firstMissingPositive(nums));
     }
     public static int firstMissingPositive(int[] nums) {
@@ -13,7 +13,7 @@ public class problem41 {
                 return i+1;
             }
         }
-        return -1;
+        return nums.length+1;
     }
     public static int cyclicsort(int[] nums) {
         int i=0;

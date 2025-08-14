@@ -1,5 +1,5 @@
 //find-in-mountain-array/
-package Leetcode_problems;
+package Leetcode_problems.submitted;
 
 interface MountainArray {
       public int get(int index);
