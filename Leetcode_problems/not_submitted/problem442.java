@@ -57,13 +57,12 @@ public class problem442 {
                 nums[correct] = nums[i];
                 nums[i] = temp;
             } else {
-                if (i != correct) {
-                    // duplicate found (avoid adding same number twice)
-                    if (dups.isEmpty() || dups.get(dups.size() - 1) != nums[i]) {
-                        dups.add(nums[i]);
-                    }
-                }
                 i++;
+            }
+        }
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != j + 1) {
+                dups.add(nums[j]);
             }
         }
         return dups;
