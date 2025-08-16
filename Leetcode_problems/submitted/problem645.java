@@ -1,5 +1,5 @@
 //set-mismatch/
-package Leetcode_problems.not_submitted;
+package Leetcode_problems.submitted;
 
 import java.util.*;
 
