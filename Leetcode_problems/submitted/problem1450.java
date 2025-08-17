@@ -1,5 +1,5 @@
 //number-of-students-doing-homework-at-a-given-time/
-package Leetcode_problems.not_submitted;
+package Leetcode_problems.submitted;
 
 public class problem1450 {
     public static void main(String[] args) {
