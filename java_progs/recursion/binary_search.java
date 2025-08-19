@@ -13,7 +13,7 @@ public class binary_search {
         if(s > e){
             return -1;
         }
-        int m = s + (e - s) / 2;
+        int m = s + (e - s) / 2; 
         if(nums[m] == target){
             return m;
         }
