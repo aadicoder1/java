@@ -1,5 +1,5 @@
 //make-a-square-with-the-same-color/
-package Leetcode_problems.not_submitted;
+
 
 public class problem3127 {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class problem3127 {
     public static boolean canMakeSquare(char[][] grid) {
         if (grid[0][0]==grid[0][1] && grid[1][0]==grid[0][1] || grid[1][0]==grid[1][1] && grid[0][0]==grid[1][1]|| grid[0][0]==grid[0][1] && grid[0][0]==grid[1][1]) {
             return true;
-        }
+        }  
         else if (grid[0][1]==grid[0][2] && grid[1][1]==grid[0][2] || grid[1][1]==grid[1][2] && grid[0][1]==grid[1][2]|| grid[0][1]==grid[0][2] && grid[0][1]==grid[1][2]) {
             return true;
         }
@@ -22,5 +22,5 @@ public class problem3127 {
             return true;
         }
         return false;
-    }
+    }     
 }
