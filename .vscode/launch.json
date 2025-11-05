@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "strivera2z.step1.lec1.q1",
+            "projectName": "java-prog_a4c03e92"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "basic_java_programs.test",
