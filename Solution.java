@@ -1,4 +1,5 @@
 import java.util.*;
+/*
 //import java.io.*;
 
 class Solution{
@@ -27,5 +28,92 @@ class Solution{
             System.out.println();
         }
         in.close();
+    }
+}*/
+
+
+
+/*
+ class Solution{
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                System.out.print(" * " );
+            }
+            System.out.println("  " );
+        }
+        sc.close();
+    }
+}
+ */
+
+
+/*class Solution{
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        pattern(n);
+        sc.close();
+    }
+    public static void pattern(int n){
+        for(int i=n;i>=0;i--){
+            for(int j=i;j<n;j++){
+                System.out.print(" * " );
+            }
+            System.out.println("  " );
+        }
+
+    }
+}*/
+
+
+
+/*class Solution{
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        pattern(n);
+        sc.close();
+    }
+    public static void pattern(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(i+j-1>=n){
+                System.out.print("*  ");}
+                else{
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        } 
+    }
+}  */ 
+
+
+
+
+class Solution{
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        pattern(n);
+        sc.close();
+    }
+    public static void pattern(int n){
+        char ch='a';
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(i+j-1>=n){
+                    System.out.print(ch+"  ");
+                    ch++;
+                }
+                else{
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        } 
     }
 }
