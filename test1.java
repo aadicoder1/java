@@ -19,5 +19,7 @@ class test1 {
         System.out.println("Iterative: " + factIter(n));
 
         sc.close();
+
+        
     }
 }
