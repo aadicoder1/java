@@ -22,7 +22,7 @@ public class Solution {
                 break;
             }
         }
-        if(t==0){
+        if(t==0 || n=2){
             System.out.println("prime");
         } else {
             System.out.println("not prime");
@@ -35,7 +35,25 @@ public class Solution {
     //print all prime no. till n
 
     public static void main(String[] args) {
-        
+        System.out.print("enter n:");
+        Scanner sc= new Scanner(System.in);
+        int n=sc.nextInt();
+
+        for (int i=1;i<=n;i++){
+            int cnt=0;
+            for(int j=2;j*j<=n;j++){
+                if(i%j==0){
+                    cnt++;
+                    break;
+                }
+            }
+
+            if (cnt==0 || i==2){
+                System.out.println(i);
+            }
+            
+        }
+        sc.close();
     }
 
 
