@@ -81,88 +81,87 @@ public class Solution {
 
 
     //Reverse a number
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("enter number:");
         int n=sc.nextInt();
-        
+        int rev=0;
+        for(int i=n;i>0;i/=10){
+            int m=i%10;
+            rev=rev*10+m;
+        }
+        System.out.println(rev);
         sc.close();
+    }*/
 
 
 
 
 
 
+//Check palindrome number
+/*public static void main(String[] args) {
+    Scanner sc= new Scanner(System.in);
+        System.out.print("enter number:");
+        int n=sc.nextInt();
+        int og=n;
+        int rev=0;
+        for(int i=n;i>0;i/=10){
+            int m=i%10;
+            rev=rev*10+m;
+        }
+        if(og==rev){
+            System.out.println("palindrome");
+        }else{
+            System.out.println("not palindrome");
+        }
+        sc.close();
+}*/
 
-/*3️⃣ Check palindrome number
-What it means
 
-Number reads the same forward and backward.
 
-Example
 
-Input: 121
-Output: Palindrome
+// Sum of digits
+/*public static void main(String[] args) {
+    Scanner sc= new Scanner(System.in);
+        System.out.print("enter number:");
+        int n=sc.nextInt();
+        int sum=0;
+        for(int i=n;i>0;i/=10){
+            int m=i%10;
+            sum=sum+m;
+        }        
+        System.out.println(sum);
+        sc.close();
+}*/
 
-Input: 123
-Output: Not Palindrome
 
-Thinking
+//Armstrong number
+public static void main(String[] args) {
+    Scanner sc= new Scanner(System.in);
+        System.out.print("enter number:");
+        int n=sc.nextInt();
+        int og=n;
+        int sum=0;
+        int pwr=0;
+        for(int i=n;i>0;i/=10){
+            pwr++;
+        }
+        for(int i=n;i>0;i/=10){
+            int m=i%10;
+            sum=sum + (int)Math.pow(m,pwr);
+        }
+        if(og==sum){
+            System.out.println("armstrong no");
+        }else{
+            System.out.println("not armstrong");
+        }
+        sc.close();
+}
 
-Reverse the number
 
-Compare with original
 
-Constraints
-
-Negative numbers are not palindrome
-
-Single digit → always palindrome
-
-4️⃣ Sum of digits
-What it means
-
-Add all digits of the number.
-
-Example
-
-Input: 345
-Output: 12
-
-Thinking
-
-Extract digit using % 10
-
-Add to sum
-
-Constraints
-
-Large numbers possible
-
-Negative sign ignored
-
-5️⃣ Armstrong number
-What it means
-
-Sum of each digit raised to the power of number of digits equals the number itself.
-
-Example
-
-Input: 153
-Output: Armstrong
-
-Because
-1³ + 5³ + 3³ = 153
-
-Constraints
-
-Must count digits first
-
-Works for 3-digit and more
-
-Single digit numbers are Armstrong
-
-6️⃣ Prime number check
+/*6️⃣ Prime number check
 What it means
 
 A number greater than 1 with exactly two divisors: 1 and itself.
@@ -277,5 +276,5 @@ Do not include the number itself
 
 
 
-    }}
+}
 
