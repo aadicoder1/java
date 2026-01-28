@@ -81,45 +81,33 @@ public class Solution {
 
 
     //Reverse a number
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("enter number:");
         int n=sc.nextInt();
-        
+        int rev=0;
+        for(int i=n;i>0;i/=10){
+            int m=i%10;
+            rev=rev*10+m;
+        }
+        System.out.println(rev);
         sc.close();
+    }*/
 
 
 
 
 
 
+//Check palindrome number
+public static void main(String[] args) {
+    
+}
 
-/*3️⃣ Check palindrome number
-What it means
 
-Number reads the same forward and backward.
 
-Example
 
-Input: 121
-Output: Palindrome
-
-Input: 123
-Output: Not Palindrome
-
-Thinking
-
-Reverse the number
-
-Compare with original
-
-Constraints
-
-Negative numbers are not palindrome
-
-Single digit → always palindrome
-
-4️⃣ Sum of digits
+/*4️⃣ Sum of digits
 What it means
 
 Add all digits of the number.
@@ -277,5 +265,5 @@ Do not include the number itself
 
 
 
-    }}
+}
 
