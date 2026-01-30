@@ -100,6 +100,7 @@ public class Solution {
 
 
 //Check palindrome number
+<<<<<<< HEAD
 /*public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
         System.out.print("enter number:");
@@ -117,10 +118,16 @@ public class Solution {
         }
         sc.close();
 }*/
+=======
+public static void main(String[] args) {
+    
+}
+>>>>>>> 826aee90614481338224f5782688183289db1492
 
 
 
 
+<<<<<<< HEAD
 // Sum of digits
 /*public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
@@ -162,6 +169,52 @@ public static void main(String[] args) {
 
 
 /*6️⃣ Prime number check
+=======
+/*4️⃣ Sum of digits
+What it means
+
+Add all digits of the number.
+
+Example
+
+Input: 345
+Output: 12
+
+Thinking
+
+Extract digit using % 10
+
+Add to sum
+
+Constraints
+
+Large numbers possible
+
+Negative sign ignored
+
+5️⃣ Armstrong number
+What it means
+
+Sum of each digit raised to the power of number of digits equals the number itself.
+
+Example
+
+Input: 153
+Output: Armstrong
+
+Because
+1³ + 5³ + 3³ = 153
+
+Constraints
+
+Must count digits first
+
+Works for 3-digit and more
+
+Single digit numbers are Armstrong
+
+6️⃣ Prime number check
+>>>>>>> 826aee90614481338224f5782688183289db1492
 What it means
 
 A number greater than 1 with exactly two divisors: 1 and itself.
