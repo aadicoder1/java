@@ -21,8 +21,6 @@ public static void main(String[] args) {
     list.add(42);
     System.out.println(list);*/
 
-
-    
     List <Integer> nums = Arrays.asList(3, 1, 4, 2);
     Collections.sort(nums);
     Collections.reverse(nums);
